@@ -265,6 +265,9 @@
             window.alert("Thanks for registering to use our collaboration tool! We will be in touch with next steps! " +
                 "We're doing onboarding manually as we are still in private beta")
 
+            fbq('track', 'Registered');
+
+
         } else {
             console.log("invalid values");
         }
